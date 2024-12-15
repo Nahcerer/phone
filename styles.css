@@ -309,7 +309,7 @@ strong {
 
 
 /* Для дуже маленьких пристроїв (телефони) */
-@media (max-width: 480px) {
+@media (max-width: 425px) {
 
     nav {
         flex-direction: column; /* Вертикальне меню */
