@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#4health&beauty</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="picture/logo.png" type="image/png">
+</head>
+<body>
+
+    <header>
+        <h1>#4health&beauty</h1>
+        <img src="picture/logo.png" alt="logo" class="site-logo">
+        <nav>
+            <ul>
+                <li id="hlavna" class="active">Domov</li>
+                <li id="fotky">Galéria</li>
+                <li id="kontakty">Kontakty</li>
+            </ul>
+        </nav>
+
+        <div id="language-switcher">
+            <img src="picture/button_britain.png" alt="English" data-lang="en" class="flag">
+            <img src="picture/button_slovak.png" alt="Slovenská" data-lang="sk" class="flag active">
+            <img src="picture/button_ukr.png" alt="Українська" data-lang="ua" class="flag">
+        </div>
+    </header>
+
+
+    <div id="gallery-box" class="hidden">
+        <div class="image-wrapper" style="background-image: url('picture/background.jpg');"></div>
+        <div class="image-wrapper" style="background-image: url('picture/image2.jpg');"></div>
+        <div class="image-wrapper" style="background-image: url('picture/image3.jpg');"></div>
+        <div class="image-wrapper" style="background-image: url('picture/image4.jpg');"></div>
+        <div class="image-wrapper" style="background-image: url('picture/image5.jpg');"></div>
+        <div class="image-wrapper" style="background-image: url('picture/image6.jpg');"></div>
+    </div>
+
+    <a href="https://www.instagram.com/4healthbeauty_4hb/" target="_blank" class="instagram-icon">
+        <img src="picture/Instagram_icon.png" alt="Instagram">
+    </a>
+
+
+    <div id="info-box" class="hidden show">
+        <p id="info-text"></p>
+    </div>
+
+    <div id="contact-info-box" class="hidden">
+        <p id="contact-info-text"></p>
+    </div>
+
+    <div id="contact-boxes" class="hidden">
+        <div class="contact-window">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167.9555425847678!2d18.738734162863505!3d49.22226382904393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47145f0038840e09%3A0x2021cc577bb6683a!2s4health%26beauty!5e1!3m2!1suk!2spl!4v1734280947138!5m2!1suk!2spl"
+                    width="400" height="223" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="contact-window">
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1734280751834!6m8!1m7!1skoa4Uv3FYiD7gyi1sDumew!2m2!1d49.22218586712041!2d18.73883462191524!3f47.75773797965422!4f-3.3698149504677275!5f0.868777353499769"
+                    width="400" height="223" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
